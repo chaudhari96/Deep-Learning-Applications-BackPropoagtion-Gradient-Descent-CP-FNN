@@ -4,7 +4,7 @@
     Draw the computation graph for the following function: 1/(1+(𝑎^b+c^d)∗𝑒)^2. Compute the gradient of the function with respect it to its inputs at (a,b,c,d,e) =   (1,1,1,1,1)
 
 2. Gradient Descent 
-   a. Write a function to compute the mean squared error between a prediction and ground truthassuming both are numpy arrays (see python module numpy)/n
+   a. Write a function to compute the mean squared error between a prediction and ground truthassuming both are numpy arrays (see python module numpy)
    b. Consider a model: y = mx + c , where the model parameter m = 1 and parameter c = 0 and x ∈ (0,1) . Plot the function using matplotlib.
    c. Generate example data by drawing N = 100 uniform values from the range in which x lies, andcompute the corresponding y to get {x,y) over i = 1 to N.
    d. Assuming that you do not know the model parameters, use backpropagation and gradientdescent updates to fi nd the model parameters (choose an appropriate   learning rate). The lossfunction will be the mean squared error.
